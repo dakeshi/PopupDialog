@@ -227,8 +227,8 @@ final public class PopupDialog: UIViewController {
     @objc fileprivate func handleTap(_ sender: UITapGestureRecognizer) {
 
         // Make sure it's not a tap on the dialog but the background
-        let point = sender.location(in: popupContainerView.stackView)
-        guard !popupContainerView.stackView.point(inside: point, with: nil) else { return }
+//        let point = sender.location(in: popupContainerView.stackView)
+//        guard !popupContainerView.stackView.point(inside: point, with: nil) else { return }
         dismiss()
     }
 
